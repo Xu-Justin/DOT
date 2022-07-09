@@ -4,6 +4,17 @@ This project application provides simple interactions between User and Task.
 
 This project is created with Node.Js express for API with mongodb/mongoose for the database and redis for the cache. This project is also equipped with centralized error handling and cypress e2e API test.
 
+## Usage
+
+Run the following codes on terminal to clone this repository, install necessary packages, and run the application.
+
+```
+git clone https://github.com/Xu-Justin/DOT.git
+cd DOT
+npm install
+npm start
+```
+
 ## Database Schema
 
 ![DOT - Table](https://user-images.githubusercontent.com/56458008/178113917-3873fed5-ccac-4fd3-a9cb-fd813de68616.png)
