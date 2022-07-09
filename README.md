@@ -23,7 +23,7 @@ This project is created with Node.Js express for API with mongodb/mongoose for t
 
 ## Design Pattern
 
-MVC, but without view.
+This project uses MVC pattern, but without view.
 
 ## Questions
 
