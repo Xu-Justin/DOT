@@ -39,6 +39,7 @@ module.exports = {
     },
     
     updateUser : async (req, res) => {
+        console.log(req.body)
         const user = await User.findById(req.body.id);
         if (req.body.name) user.name = req.body.name;
         if (req.body.age) user.age = req.body.age;

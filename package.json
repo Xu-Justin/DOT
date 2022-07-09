@@ -4,7 +4,9 @@
   "description": "",
   "main": "apps.js",
   "scripts": {
-    "start": "nodemon apps.js"
+    "start": "node apps.js",
+    "dev": "nodemon apps.js",
+    "e2e": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,7 @@
     "redis": "^4.2.0"
   },
   "devDependencies": {
+    "cypress": "^10.3.0",
     "nodemon": "^2.0.19"
   }
 }
