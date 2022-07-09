@@ -33,6 +33,13 @@ npm start
 | `POST`   | /tasks | <pre>'user_id'     : str<br>'description' : str</pre>     | Create new task belongs to `user_id`.           |
 | `DELETE` | /tasks | <pre>'id'   : str</pre>                                   | Delete task by `id`.                            |
 
+## E2E Cypress
+
+On root path of this repository, run the following code to open cypress interface.
+```
+npx cypress open
+```
+
 ## Design Pattern
 
 This project uses MVC pattern, but without view.
