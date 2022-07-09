@@ -17,7 +17,8 @@ npm start
 
 ## Database Schema
 
-![DOT - Table](https://user-images.githubusercontent.com/56458008/178113917-3873fed5-ccac-4fd3-a9cb-fd813de68616.png)
+![DOT - Table](https://user-images.githubusercontent.com/56458008/178119516-0ca53c81-0994-45a5-845e-1f5a18ab25f2.png)
+
 
 ## API
 
